@@ -43,6 +43,10 @@
     margin-bottom: -23px;
 }
 
+#date-posted {
+    margin-top: -20px;
+}
+
 #print {
     display: flex;
     margin-left: 830px;
@@ -58,5 +62,12 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+#milk {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
