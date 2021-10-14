@@ -79,12 +79,27 @@
     width: 10rem;
 }
 
-
-
-
-
-
-button {
-    display: flex;
-    margin-left: 700px;
+#van-pic {
+    margin-top: 50px;
 }
+
+#name {
+    margin-left: 80px;
+    margin-top: -70px;
+}
+
+#food {
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+#button {
+    display: flex;
+    margin-left: 800px;
+    margin-top: -55px;
+    padding: 2.5%;
+    width: 150px;
+    justify-content: center;
+}
+
+#small
