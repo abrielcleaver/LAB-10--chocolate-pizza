@@ -32,11 +32,26 @@
 
 
 #icons {
+    display: flex;
+    margin-left: 700px;
     
 }
 
 #two-icons {
-    
+    display: flex;
+    margin-left: 850px;
+    margin-bottom: -23px;
+}
+
+#print {
+    display: flex;
+    margin-left: 830px;
+    margin-bottom: -30px;
+}
+#print-text {
+    display: flex;
+    margin-left: 850px;
+    color: gray;
 }
 
 .instructions {
