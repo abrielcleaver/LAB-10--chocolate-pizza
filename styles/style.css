@@ -1,38 +1,42 @@
-/* body {
+ body {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+ }
+ #wrap {
+    width: 900px;
+ }
+
+ #header-left {
+     display: flex;
+}
+
+#header-left-logo {
+    width: 42px;
+    height: 45px;
+}
+
+#header-left-text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
-} */
-
-#logo {
-    position: relative;
-    left: 80px;
-    top: 35px;
 }
 
 #Delicious {
-    position: relative;
-    left: 130px;
-    bottom: 40px;
+    margin: 0px;
+    
 }
 
 #best {
-    position: relative;
-    left: 130px;
-    bottom: 65px;
+    margin: 0px;
 }
 
+
 #icons {
-    position: relative;
-    left: 800px;
-    bottom: 130px;
+    
 }
 
 #two-icons {
-    position: relative;
-    left: 980px;
-    bottom: 100px;
+    
 }
 
 .instructions {
