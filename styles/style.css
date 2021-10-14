@@ -14,6 +14,9 @@
 #header-left-logo {
     width: 42px;
     height: 45px;
+    margin-top: 5px;
+    margin-right: 10px;
+
 }
 
 #header-left-text {
@@ -28,20 +31,60 @@
 
 #best {
     margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(70, 67, 67);
 }
 
 
 #icons {
+    display: flex;
+    margin-left: 700px;
     
 }
 
 #two-icons {
-    
+    display: flex;
+    margin-left: 850px;
+    margin-bottom: -23px;
 }
 
-.instructions {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+#date-posted {
+    margin-top: -20px;
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
 }
 
+#print {
+    display: flex;
+    margin-left: 830px;
+    margin-bottom: -30px;
+}
+#print-text {
+    display: flex;
+    margin-left: 850px;
+    color: gray;
+}
+
+.container {
+    background-image: url(../assets/list-bg.png);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.container-side {
+    width: 10rem;
+}
+
+
+
+
+
+
+button {
+    display: flex;
+    margin-left: 700px;
+}
