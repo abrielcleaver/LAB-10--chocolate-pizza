@@ -58,16 +58,19 @@
     color: gray;
 }
 
-.instructions {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.container {
+    background-image: url(../assets/list-bg.png);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem;
 }
 
-#milk {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.container-side {
+    width: 10rem;
 }
+
+
 
