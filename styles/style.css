@@ -1,0 +1,32 @@
+/* body {
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+} */
+
+#logo {
+    position: relative;
+    left: 80px;
+    top: 35px;
+}
+
+#Delicious {
+    position: relative;
+    left: 130px;
+    bottom: 40px;
+}
+
+#best {
+    position: relative;
+    left: 130px;
+    bottom: 65px;
+
+
+}
+
+.instructions {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
