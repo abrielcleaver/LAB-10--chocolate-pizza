@@ -1,7 +1,8 @@
 /* body {
-    display: inline-block;
-    margin: 0px auto;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 } */
 
 #logo {
@@ -20,8 +21,18 @@
     position: relative;
     left: 130px;
     bottom: 65px;
+}
 
+#icons {
+    position: relative;
+    left: 800px;
+    bottom: 130px;
+}
 
+#two-icons {
+    position: relative;
+    left: 980px;
+    bottom: 100px;
 }
 
 .instructions {
