@@ -26,13 +26,13 @@
 
 #Delicious {
     margin: 0px;
-    
+    font-family: 'Ephesis', cursive;
 }
 
 #best {
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
-    color: rgb(70, 67, 67);
+    color: black;
 }
 
 
@@ -86,20 +86,39 @@
 #name {
     margin-left: 80px;
     margin-top: -70px;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(66, 60, 60);
 }
 
 #food {
-    margin-top: 20px;
+    margin-top: -10px;
     margin-left: 80px;
+    font-size: 20px;
+    margin-right: 200px;
 }
 
 #button {
     display: flex;
     margin-left: 800px;
-    margin-top: -55px;
+    margin-top: -90px;
     padding: 2.5%;
     width: 150px;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #BD7159;
+    color: white;
 }
 
-#small
+#small-fork {
+    margin-top: 50px;
+    margin-left: 450px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copy {
+    text-align: center;
+}
