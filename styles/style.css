@@ -27,14 +27,17 @@
 #Delicious {
     margin: 0px;
     font-family: 'Ephesis', cursive;
+    font-size: 35px;
+    font-weight: bolder;
 }
 
 #best {
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
     color: black;
+    font-weight: bolder;
+    font-size: 10px;
 }
-
 
 #icons {
     display: flex;
@@ -52,6 +55,8 @@
     margin-top: -20px;
     font-family: 'Montserrat', sans-serif;
     color: gray;
+    font-weight: bold;
+    font-size: 10px;
 }
 
 #print {
@@ -73,6 +78,14 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding: 2rem;
+}
+
+#sugar {
+    text-decoration: line-through;
+}
+
+#egg {
+    text-decoration: line-through;
 }
 
 .container-side {
@@ -106,6 +119,7 @@
     width: 150px;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     background-color: #BD7159;
     color: white;
 }
